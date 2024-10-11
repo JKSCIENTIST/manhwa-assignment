@@ -73,7 +73,7 @@ def api_manhwas():
     return jsonify(manhwas)
 
 # Remove the following lines if present, as Azure App Service uses a production server
-if __name__ == '__main__':
-    app.run()
+if __name__ == "__main__":
+    app.run(host='0.0.0.0', port=int(os.environ.get("PORT", 8000)))
 
 
