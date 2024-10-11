@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The 50 Best Fantasy Manhwa You Must Read Now</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- Custom Styles -->
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        /* Navigation Bar */
+        .navbar {
+            padding: 15px 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .navbar-brand {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            color: #007bff !important;
+        }
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: #555 !important;
+        }
+        .navbar-nav .nav-link:hover {
+            color: #007bff !important;
+        }
+
+        /* Hero Section */
+        .hero {
+            background-image: url('static/images/wallpaper.jpg'); /* Replace with the correct path */
+            background-size: cover;
+            background-position: center;
+            color: #ffffff;
+            padding: 150px 20px; /* Increased padding for larger coverage */
+            position: relative;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 600px; /* Adjust the height as needed */
+        }
+
+        .hero::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.5); /* Dark overlay */
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .hero-content h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #fff;
+        }
+
+        .hero-content p {
+            font-size: 1.2em;
+            margin-bottom: 30px;
+            color: #fff;
+        }
+
+        .btn-primary {
+            padding: 10px 30px;
+            font-size: 1.2em;
+            border-radius: 50px;
+            transition: background-color 0.3s ease;
+            margin-top: 20px;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        /* Manhwa Count */
+        .manhwa-count {
+            margin: 40px 0;
+            text-align: center;
+        }
+        .manhwa-count h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2em;
+            color: #007bff;
+        }
+
+        /* Manhwa Cards */
+        .manhwa-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            margin-bottom: 50px;
+        }
+        .manhwa-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            overflow: hidden;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            width: 100%;
+            max-width: 300px;
+            text-decoration: none;
+            color: inherit;
+        }
+        .manhwa-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 15px rgba(0,0,0,0.2);
+        }
+        .manhwa-card img {
+            width: 100%;
+            height: auto;
+        }
+        .manhwa-card-body {
+            padding: 20px;
+        }
+        .manhwa-card-title {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+        .manhwa-card-genre {
+            font-weight: 500;
+            color: #555;
+            margin-bottom: 15px;
+        }
+        .manhwa-card-description {
+            font-size: 0.95em;
+            color: #666;
+            height: 80px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: #343a40;
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer a {
+            color: #ffffff;
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 768px) {
+            .hero-content h1 {
+                font-size: 2.5em;
+            }
+            .hero-content p {
+                font-size: 1em;
+            }
+            .manhwa-card-description {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">ManhwaWorld</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Top Manhwas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Genres</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>The 50 Best Fantasy Manhwa You Must Read Now</h1>
+            <p>Explore the most captivating and beloved Manhwas from around the world.</p>
+            <a href="#" class="btn btn-primary">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Manhwa Count -->
+    <div class="container">
+        <div class="manhwa-count">
+            <h3>Total Manhwas: {{ total }}</h3>
+        </div>
+
+        <!-- Manhwa List -->
+        <div class="manhwa-list">
+            {% for manhwa in manhwas %}
+            <a href="{{ manhwa.imdb_url }}" target="_blank" class="text-decoration-none">
+                <div class="manhwa-card">
+                    <img src="{{ url_for('static', filename='images/' + manhwa.image_url.split('/')[-1]) }}" 
+                         alt="{{ manhwa.title }}">
+                    <div class="manhwa-card-body">
+                        <h5 class="manhwa-card-title">{{ manhwa.title }}</h5>
+                        <p class="manhwa-card-genre"><strong>Genre:</strong> {{ manhwa.genre }}</p>
+                        <p class="manhwa-card-description">{{ manhwa.description }}</p>
+                    </div>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; {{ current_year }} ManhwaWorld. All rights reserved.</p>
+        <div>
+            <a href="#">Privacy Policy</a> |
+            <a href="#">Terms of Service</a> |
+            <a href="#">About Us</a>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+            integrity="sha384-DfXd/XMgM+/pfsYdJ2d3YV1YXW0gG0Xt5J1bGkfqA/B+zghasMGeJTBCYde6Mgh7" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+            integrity="sha384-9/reFTGAW83EW2RDu9C+YZCQBX2iGXg+oP3Jqet8E3jLrV/K28pgCgfST6d77/33" 
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+            integrity="sha384-B4gt1jrGC7Jh4AgF6nN3i1zQmXmINpBv4YOHZAsjJ4G8/5bBgFz0i9OZlQdghhD" 
+            crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Solo Leveling",
+    "genre": "Action, Fantasy",
+    "description": "A story about a weak hunter who becomes the strongest.",
+    "image_url": "/static/images/solo_leveling.jpg",
+    "imdb_url": "https://www.imdb.com/title/tt21209876/"
+  },
+  {
+    "id": 2,
+    "title": "Tower of God",
+    "genre": "Adventure, Fantasy",
+    "description": "A boy enters a mysterious tower to find his friend.",
+    "image_url": "/static/images/tower_of_god.jpg",
+    "imdb_url": "https://www.imdb.com/title/tt12057106/"
+  },
+  {
+    "id": 3,
+    "title": "Noblesse",
+    "genre": "Action, Supernatural",
+    "description": "A powerful noble awakens in modern times and fights against evil forces to protect humanity.",
+    "image_url": "/static/images/noblesse.jpg",
+    "imdb_url": "https://www.imdb.com/title/tt12885610/"
+  }
+]
