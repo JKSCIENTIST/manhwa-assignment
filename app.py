@@ -75,3 +75,5 @@ def api_manhwas():
 # Remove the following lines if present, as Azure App Service uses a production server
 if __name__ == '__main__':
     app.run()
+
+
